@@ -35,7 +35,7 @@ Would you like to transact again: n
 
 ```
 
-###Database structure within text file
+### Database structure within text file
 
 ```
 ----------------------------------
