@@ -2,51 +2,38 @@
 
 I made a super basic bank system that allows new users to create accounts by inputting their names, IDs, and home addresses. The program then spits out an account number. They can then sign into their accounts and withdraw or deposit funds. All account information is saved onto a text file 'database'. When the user exits the program, the text file contents are erased. This all operates within the command line. 
 
-### Main Menu  
+#### Main Menu  
+
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/main-menu.png?raw=true" alt = "main menu display" width="300">
+
+#### Create Account
+
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/create.png?raw=true" alt = "create account display" width="250">
+
+#### Login Menu
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/login.png?raw=true" alt = "login menu display" width="250">
+
+#### Database structure within text file
+
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/database.png?raw=true" alt = "create account display" width="200">
+
+## Windows Install        
+
+1. Install Python interpreter  
+https://www.python.org/downloads/
+2. Install git  
+https://git-scm.com/download/win
+3. Install Pygame      
+Run command in git-bash or cmd after you've installed Python:
+```bash
+pip install pygame
 ```
-Welcome to the Totally Ethical Bank System.
-Create account(A)
-Quit(Q)
-List accounts(ls)
-Login(E)
+4. Open git-bash and type:    
+```bash
+git https://github.com/lmaqungo/Command-Line-Bank-System.git
+cd Command-Line-Bank-System
+python bank system.py
 ```
-### Login Menu
-```
-Enter your id to login into your account: {id}
-Welcome back! {person}
-Available Options:
-deposit 'amount'
-withdraw 'amount'
-
-help
-Available actions:
-deposit 'amount'
-withdraw 'amount'
-
-wrong keyword
-Invalid input!The available actions are 'deposit' or 'withdraw'. Otherwise enter 'help'
-
-deposit 100000
-deposited R10000 into account
-Would you like to transact again: y
-withdraw 4000
-withdrew R4000 from account
-Would you like to transact again: n
-
-```
-
-### Database structure within text file
-
-```
-----------------------------------
-Name: {name}
-ID: {ID number}
-Address: {Address}
-Account Number: {Randomly generated number}
-Balance: R{numeric balance}
-----------------------------------
-```
-
 
 **Technologies**: Python  
 **Learnings**: text file manipulation  
