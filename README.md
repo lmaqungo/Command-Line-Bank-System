@@ -2,20 +2,20 @@
 
 I made a super basic bank system that allows new users to create accounts by inputting their names, IDs, and home addresses. The program then spits out an account number. They can then sign into their accounts and withdraw or deposit funds. All account information is saved onto a text file 'database'. When the user exits the program, the text file contents are erased. This all operates within the command line. 
 
-#### Main Menu  
+### Main Menu  
 
-<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/main-menu.png?raw=true" alt = "main menu display" width="300">
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/main-menu.png?raw=true" alt = "main menu display" width="320">
 
-#### Create Account
+### Create Account
 
-<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/create.png?raw=true" alt = "create account display" width="250">
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/create.png?raw=true" alt = "create account display" width="270">
 
-#### Login Menu
-<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/login.png?raw=true" alt = "login menu display" width="250">
+### Login Menu
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/login.png?raw=true" alt = "login menu display" width="270">
 
-#### Database structure within text file
+### Database structure within text file
 
-<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/database.png?raw=true" alt = "create account display" width="200">
+<img src="https://github.com/lmaqungo/Command-Line-Bank-System/blob/main/img/database.png?raw=true" alt = "create account display" width="220">
 
 ## Windows Install        
 
@@ -34,6 +34,8 @@ git https://github.com/lmaqungo/Command-Line-Bank-System.git
 cd Command-Line-Bank-System
 python bank system.py
 ```
+
+## Overview 
 
 **Technologies**: Python  
 **Learnings**: text file manipulation  
