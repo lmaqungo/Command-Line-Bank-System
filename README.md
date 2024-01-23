@@ -30,7 +30,7 @@ pip install pygame
 ```
 4. Open git-bash and type:    
 ```bash
-git https://github.com/lmaqungo/Command-Line-Bank-System.git
+git clone https://github.com/lmaqungo/Command-Line-Bank-System.git
 cd Command-Line-Bank-System
 python bank system.py
 ```
